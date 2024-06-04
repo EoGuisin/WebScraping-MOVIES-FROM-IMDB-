@@ -1,12 +1,19 @@
-IMDB Movie Web Scraper
-This is a simple Python script that scrapes movie information from IMDB. It uses the requests and beautifulsoup4 libraries to make HTTP requests and parse the HTML of the page.
+# IMDB Movie Web Scraper
 
-The script scrapes the name and information of each movie on the page and prints them to the terminal. It also writes these information to a file named movies.csv.
+Este é um script Python simples que raspa informações de filmes do IMDB. Ele usa as bibliotecas `requests` e `beautifulsoup4` para fazer requisições HTTP e analisar o HTML da página.
 
-How to Run the Script
-Make sure you have Python installed on your system. You can check your Python installation with the command python --version.
-Install the necessary libraries with the command pip install requests beautifulsoup4.
-Navigate to the directory where the scraper.py file is located using the cd command.
-Run the script with the command python scraper.py.
-The movie information will be printed to the terminal and written to the movies.csv file.
-Please note that the structure of the web page may change over time, which could cause the script to stop working. If this happens, you may need to update the script to match the new structure of the page.
+## 🚀 Como Executar o Script
+
+1. Certifique-se de que você tem Python instalado em seu sistema. Você pode verificar a instalação do Python com o comando `python --version`.
+
+2. Instale as bibliotecas necessárias com o comando `pip install requests beautifulsoup4`.
+
+3. Navegue até o diretório onde o arquivo `scraper.py` está localizado usando o comando `cd`.
+
+4. Execute o script com o comando `python scraper.py`.
+
+5. As informações dos filmes serão impressas no terminal e gravadas no arquivo `movies.csv`.
+
+## ⚠️ Aviso
+
+A estrutura da página da web pode mudar ao longo do tempo, o que pode fazer com que o script pare de funcionar. Se isso acontecer, você pode precisar atualizar o script para corresponder à nova estrutura da página.
